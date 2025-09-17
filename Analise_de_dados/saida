@@ -1,0 +1,211 @@
+
+
+RangeIndex: 881666 entries, 0 to 881665
+Data columns (total 12 columns):
+ #   Column                  Non-Null Count   Dtype  
+---  ------                  --------------   -----  
+ 0   CustomerID              881664 non-null  float64
+ 1   idade                   881664 non-null  float64
+ 2   sexo                    881664 non-null  object 
+ 3   tempo_como_cliente      881663 non-null  float64
+ 4   frequencia_uso          881663 non-null  float64
+ 5   ligacoes_callcenter     881664 non-null  float64
+ 6   dias_atraso             881664 non-null  float64
+ 7   assinatura              881661 non-null  object 
+ 8   duracao_contrato        881663 non-null  object 
+ 9   total_gasto             881664 non-null  float64
+ 10  meses_ultima_interacao  881664 non-null  float64
+ 11  cancelou                881664 non-null  float64
+dtypes: float64(9), object(3)
+memory usage: 80.7+ MB
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>idade</th>
+      <th>sexo</th>
+      <th>tempo_como_cliente</th>
+      <th>frequencia_uso</th>
+      <th>ligacoes_callcenter</th>
+      <th>dias_atraso</th>
+      <th>assinatura</th>
+      <th>duracao_contrato</th>
+      <th>total_gasto</th>
+      <th>meses_ultima_interacao</th>
+      <th>cancelou</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>30.0</td>
+      <td>Female</td>
+      <td>39.0</td>
+      <td>14.0</td>
+      <td>5.0</td>
+      <td>18.0</td>
+      <td>Standard</td>
+      <td>Annual</td>
+      <td>932.00</td>
+      <td>17.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>65.0</td>
+      <td>Female</td>
+      <td>49.0</td>
+      <td>1.0</td>
+      <td>10.0</td>
+      <td>8.0</td>
+      <td>Basic</td>
+      <td>Monthly</td>
+      <td>557.00</td>
+      <td>6.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>55.0</td>
+      <td>Female</td>
+      <td>14.0</td>
+      <td>4.0</td>
+      <td>6.0</td>
+      <td>18.0</td>
+      <td>Basic</td>
+      <td>Quarterly</td>
+      <td>185.00</td>
+      <td>3.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>58.0</td>
+      <td>Male</td>
+      <td>38.0</td>
+      <td>21.0</td>
+      <td>7.0</td>
+      <td>7.0</td>
+      <td>Standard</td>
+      <td>Monthly</td>
+      <td>396.00</td>
+      <td>29.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>23.0</td>
+      <td>Male</td>
+      <td>32.0</td>
+      <td>20.0</td>
+      <td>5.0</td>
+      <td>8.0</td>
+      <td>Basic</td>
+      <td>Monthly</td>
+      <td>617.00</td>
+      <td>20.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>881661</th>
+      <td>42.0</td>
+      <td>Male</td>
+      <td>54.0</td>
+      <td>15.0</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>Premium</td>
+      <td>Annual</td>
+      <td>716.38</td>
+      <td>8.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>881662</th>
+      <td>25.0</td>
+      <td>Female</td>
+      <td>8.0</td>
+      <td>13.0</td>
+      <td>1.0</td>
+      <td>20.0</td>
+      <td>Premium</td>
+      <td>Annual</td>
+      <td>745.38</td>
+      <td>2.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>881663</th>
+      <td>26.0</td>
+      <td>Male</td>
+      <td>35.0</td>
+      <td>27.0</td>
+      <td>1.0</td>
+      <td>5.0</td>
+      <td>Standard</td>
+      <td>Quarterly</td>
+      <td>977.31</td>
+      <td>9.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>881664</th>
+      <td>28.0</td>
+      <td>Male</td>
+      <td>55.0</td>
+      <td>14.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>Standard</td>
+      <td>Quarterly</td>
+      <td>602.55</td>
+      <td>2.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>881665</th>
+      <td>31.0</td>
+      <td>Male</td>
+      <td>48.0</td>
+      <td>20.0</td>
+      <td>1.0</td>
+      <td>14.0</td>
+      <td>Premium</td>
+      <td>Quarterly</td>
+      <td>567.77</td>
+      <td>21.0</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>881659 rows × 11 columns</p>
+</div>
